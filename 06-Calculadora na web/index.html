@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+        <hr>
+    </header>
+    <section>
+        <table>
+            <tr>
+                <td>Numero 1: <input type="number" id="numero1"></td>
+            </tr>
+            <tr>
+                <td>Numero 2: <input type="number" id="numero2"></td>
+            </tr>
+        </table>
+        <br>
+        <input type="radio" name="operacao" value="soma" checked>(+)
+        <input type="radio" name="operacao" value="subtracao">(-)
+        <input type="radio" name="operacao" value="multiplicacao">(*)
+        <input type="radio" name="operacao" value="divisaoreal">(/)
+        <input type="radio" name="operacao" value="divisaointeiro">(%)
+        <input type="radio" name="operacao" value="potencicao">(**)
+        <br>
+        <br>
+        <div id="resposta"></div>
+        <button id= "submit" onclick="clicar()">Clique aqui</button>
+    </section>
+    <hr>
+    <footer> Feito por João Zanin - Para fins de estudo &copy;</footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
