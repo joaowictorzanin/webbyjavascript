@@ -20,3 +20,8 @@ var objeto2 = [{aluno: "Joao", id: 12345}, {aluno: "pedro", id : 23456}]
 console.log(objeto2)
 console.log(objeto2[0].aluno)
 console.log(objeto2[1].id)
+
+var lista3 = ['Alemanha', 'Inglaterra', 'Escócia']
+lista.push('Polônia');
+lista.pop('Inglaterra');
+console.log(lista3)
