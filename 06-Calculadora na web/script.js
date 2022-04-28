@@ -5,6 +5,7 @@ function clicar(){
     var n1 = Number(numero1.value)
     var n2 = Number(numero2.value)
     var resultado
+    
     if (numero1.value.length == 0 || numero2.value.length == 0 ) {
        alert('[ERROR] Preencha um numero')
     }else{
